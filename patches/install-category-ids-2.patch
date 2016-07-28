@@ -1,16 +1,8 @@
 diff --git a/Setup/InstallSchema.php b/Setup/InstallSchema.php
-index cc81a6f..5f0031e 100644
+index 241028a..5f0031e 100644
 --- a/Setup/InstallSchema.php
 +++ b/Setup/InstallSchema.php
-@@ -10,6 +10,7 @@ use Magento\Framework\Setup\InstallSchemaInterface;
- use Magento\Framework\Setup\ModuleContextInterface;
- use Magento\Framework\Setup\SchemaSetupInterface;
- use \Magento\Framework\DB\Ddl\Table;
-+use \Magento\Catalog\Setup\InstallData;
- 
- /**
-  * @codeCoverageIgnore
-@@ -259,7 +260,7 @@ class InstallSchema implements InstallSchemaInterface
+@@ -260,7 +260,7 @@ class InstallSchema implements InstallSchemaInterface
                  'group_id' => 1,
                  'website_id' => 1,
                  'name' => 'Main Website Store',
