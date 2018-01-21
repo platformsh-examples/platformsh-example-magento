@@ -2,7 +2,7 @@
     "name": "magento/project-enterprise-edition",
     "description": "eCommerce Platform for Growth (Enterprise Edition)",
     "type": "project",
-    "version": "2.0.6",
+    "version": "2.2.2",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "magento/product-enterprise-edition": "2.0.6",
+        "magento/product-enterprise-edition": "2.2.2",
         "composer/composer": "@alpha",
         "platformsh/magento2-configuration": "dev-master",
         "cweagans/composer-patches": "~1.0"
@@ -25,7 +25,7 @@
         "phpmd/phpmd": "@stable",
         "pdepend/pdepend": "2.0.6",
         "sjparkinson/static-review": "~4.1",
-        "fabpot/php-cs-fixer": "~1.2",
+        "friendsofphp/php-cs-fixer": "~1.2",
         "lusitanian/oauth": "~0.3 <=0.7.0"
     },
     "config": {
@@ -60,12 +60,6 @@
         "patches": {
             "magento/framework": {
                 "Fix the static assets front controller": "patches/fix-static-assets-controller.patch"
-            },
-            "magento/module-catalog": {
-                "Workaround assumption about incremental ids": "patches/install-category-ids-1.patch"
-            },
-            "magento/module-store": {
-                "Workaround assumption about incremental ids": "patches/install-category-ids-2.patch"
             }
         }
     }
