@@ -16,7 +16,7 @@
     "require": {
         "magento/product-enterprise-edition": "2.2.2",
         "composer/composer": "@alpha",
-        "platformsh/magento2-configuration": "dev-master",
+        "platformsh/magento2-configuration": "2.2.*",
         "cweagans/composer-patches": "~1.0"
     },
     "require-dev": {
