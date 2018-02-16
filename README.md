@@ -1,4 +1,4 @@
-# Magento 2.0 Enterprise Edition
+# Magento 2.2 Enterprise Edition
 
 This is a no-thrills example of a minimal repository to deploy a Magento 2 Enterprise Edition instance on Platform.sh.
 
