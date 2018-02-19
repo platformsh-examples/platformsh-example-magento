@@ -6,7 +6,7 @@
 name: mymagento
 
 # The toolstack used to build the application.
-type: php:7.0
+type: php:7.1
 build:
     flavor: composer
 
@@ -66,6 +66,7 @@ disk: 2048
 # The mounts that will be performed when the package is deployed.
 mounts:
     "var": "shared:files/var"
+    "generated": "shared:files/generated"
     "app/etc": "shared:files/etc"
     "pub/media": "shared:files/media"
     "pub/static": "shared:files/static"

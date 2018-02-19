@@ -6,3 +6,7 @@
 "https://{default}/":
     type: upstream
     upstream: "mymagento:php"
+"http://{default}/":
+  type: upstream
+  upstream: mymagento:php
+
