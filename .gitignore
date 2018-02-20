@@ -54,3 +54,4 @@ atlassian*
 !/update
 !/update/.htaccess
 !/README.md
+.DS_Store
