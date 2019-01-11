@@ -27,12 +27,14 @@ This repository requires your Magento credentials to be added. You can do this v
 **`auth.json` method**
 
 ```
+{
 "http-basic": {
       "repo.magento.com": {
          "username": "<public-key>",
          "password": "<private-key>"
       }
    }
+}
 ```
 
 **Project variables method**
